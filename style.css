@@ -1,0 +1,49 @@
+body {
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navTitle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.navTitle > h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navTitle > h2 > span.travel {
+    color: #ff5400;
+}
+
+.navTitle img {
+    width: 80px;
+    height: 60px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(29, 27, 27, 0.836);
+}
+
+nav > ul  > li:hover {
+    color: #ff5400;
+    font-weight: bold;
+}
