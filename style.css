@@ -51,10 +51,47 @@ nav > ul  > li:hover {
 /* navbar part done  */
 
 .explorePart {
-    padding: 50px;
+    padding: 10% 15%;
     background-image: url('/Images/explore.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
 }
+
+.explorePart > h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.explorePart > p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 0px 10%;
+}
+
+.exploreForm {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    background-color: rgba(240, 248, 255, 0.315);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formItem {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.exploreForm > button:hover {
+    background-color: #ff5400;
+    color: white;
+}
+
