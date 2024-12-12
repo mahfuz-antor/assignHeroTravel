@@ -40,7 +40,7 @@ nav > ul {
 nav > ul > li {
     padding: 20px;
     font-size: 20px;
-    color: rgba(29, 27, 27, 0.836);
+    color: rgba(29, 27, 27, 0.664);
 }
 
 nav > ul  > li:hover {
@@ -76,22 +76,81 @@ nav > ul  > li:hover {
 .exploreForm {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 20px;
+    gap: 40px;
     background-color: rgba(240, 248, 255, 0.315);
     padding: 20px;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .formItem {
+    width: 220px;
     padding: 20px;
     border-radius: 10px;
     border: none;
     outline: none;
     font-size: 18px;
+    box-sizing: border-box;
 }
 
 .exploreForm > button:hover {
     background-color: #ff5400;
     color: white;
+    cursor: pointer;
 }
 
+/* explore part end  */
+
+
+.popularTour {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+    gap: 150px;
+}
+
+.pTourTitle {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+.pTourTextTop {
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.pTourUl {
+    font-size: 17px;
+    color: rgba(29, 27, 27, 0.664);
+    line-height: 30px;
+}
+
+.pTourItem {
+    padding-top: 20px;
+}
+
+.pTourTextBottom {
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.pTourBtn {
+    font-size: 20px;
+    background-color: #ff5400;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.pTourRight > img {
+    width: 100%;
+}
