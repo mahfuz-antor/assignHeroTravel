@@ -153,4 +153,6 @@ nav > ul  > li:hover {
 
 .pTourRight > img {
     width: 100%;
+
+    padding-bottom: 20px;
 }
