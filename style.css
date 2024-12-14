@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     width: 80%;
     min-height: 100%;
@@ -108,14 +113,16 @@ nav > ul  > li:hover {
     align-items: center; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 60px;
+    margin-top: 60px;
     gap: 150px;
 }
 
-.pTourTitle {
+.popularTour > div > h2.pTourTitle {
     font-size: 50px;
     font-weight: bold;
-    line-height: 0%;
+    /* line-height: 0%; */
+    /* margin-top: 60px; */
+    /* padding-bottom: 30px; */
 }
 
 .pTourTextTop {
@@ -128,6 +135,7 @@ nav > ul  > li:hover {
     font-size: 17px;
     color: rgba(29, 27, 27, 0.664);
     line-height: 30px;
+    padding-left: 25px;
 }
 
 .pTourItem {
@@ -155,4 +163,125 @@ nav > ul  > li:hover {
     width: 100%;
 
     padding-bottom: 20px;
+}
+
+/* Ending Popular Tour Part */
+
+.destinationPart {
+    padding-top: 40px;
+}
+
+.destinationTop {
+    text-align: center;
+}
+
+.destinationTop > h2.destinationTitle {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.destinationTop > p.destinationText {
+    padding: 30px 350px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+
+.destinationImages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.destinationImages > h4 {
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.maldives {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 1 / span 2 / span 6;
+    /* padding: 100px 200px; */
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+}
+
+.indonesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 7 / span 2 / span 6;
+    /* padding: 100px 200px;  */
+    background-image: url(/Images/indonesia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+    /* width: 100%; */
+}
+
+.srilanka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 1 / span 2 / span 3;
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+    /* width: 100%; */
+}
+
+.northAmerica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 4 / span 2 / span 6;
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+}
+
+.kashmir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 10 / span 2 / span 3;
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+    /* width: 100%; */
+}
+
+.bangladesh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 1 / span 2 / span 5;
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
+    /* width: 100%; */
+}
+.bandarban {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto / 6 / span 2 / span 7;
+    background-image: url(/Images/maldives.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fit;
 }
