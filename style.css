@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     width: 80%;
@@ -169,6 +170,7 @@ nav > ul  > li:hover {
 
 .destinationPart {
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 .destinationTop {
@@ -192,7 +194,7 @@ nav > ul  > li:hover {
 .destinationImages {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-auto-rows: 100%;
+    grid-auto-rows: 200px;
     gap: 20px;
     margin-top: 30px;
 }
@@ -234,7 +236,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 1 / span 2 / span 3;
-    background-image: url(/Images/maldives.png);
+    background-image: url(/Images/srilanka.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -246,7 +248,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 4 / span 2 / span 6;
-    background-image: url(/Images/maldives.png);
+    background-image: url(/Images/northAmerica.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -257,7 +259,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 10 / span 2 / span 3;
-    background-image: url(/Images/maldives.png);
+    background-image: url(/Images/kashmir.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -269,7 +271,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 1 / span 2 / span 5;
-    background-image: url(/Images/maldives.png);
+    background-image: url(/Images/bangladesh.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -280,8 +282,82 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 6 / span 2 / span 7;
-    background-image: url(/Images/maldives.png);
+    background-image: url(/Images/bandarban.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
+}
+
+
+/* Destination part ended */
+
+.chooseUsPart {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.chooseUsHeader > h2.chooseUsTitle {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.chooseUsHeader > p.chooseUsText {
+    padding: 40px 350px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.chooseUsCards {
+    display: grid;
+    grid-template-areas: 
+    "one one two two"
+    ".three three.";
+    grid-template-rows: auto;
+    grid-gap: 30px;
+
+}
+
+.chooseUsCard {
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+.chooseUsCard > img {
+
+}
+
+.chooseUsCard > h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.chooseUsCard > p {
+    font-size: 17px;
+    line-height: 30px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.chooseCardOne {
+    grid-area: one;
+    border: 1px solid #fbb46388;
+    background-color: #fbb4631c;
+}
+
+.chooseCardTwo {
+    grid-area: two;
+    border: 1px solid #29cdf633;
+    background-color: #29cdf613;
+}
+
+.chooseCardThree {
+    grid-area: three;
+    border: 1px solid #e944443d;
+    background-color: #e9444411;
 }
