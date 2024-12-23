@@ -494,3 +494,54 @@ nav > ul  > li:hover {
     cursor: pointer;
     font-weight: bold;
 }
+
+.perfectPlacePart {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.parfectPlaceDetails {
+    /* padding-bottom: 20px; */
+}
+
+.parfectTitle {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.parfectText {
+    font-size: 17px;
+    padding: 25px 0px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.parfectLists {
+    font-size: 17px;
+    color: rgb(14, 13, 13);
+    line-height: 30px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.parfectLists > li {
+    padding: 20px 0px;
+}
+
+.parfectButton {
+    margin-top: 20px;
+}
+
+.parfectBtn {
+    font-size: 20px;
+    background-color: #ff5400;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
