@@ -99,7 +99,7 @@ nav > ul  > li:hover {
     box-sizing: border-box;
 }
 
-.exploreForm > button:hover {
+.exploreForm > button {
     background-color: #ff5400;
     color: white;
     cursor: pointer;
