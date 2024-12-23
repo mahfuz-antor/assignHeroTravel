@@ -327,9 +327,6 @@ nav > ul  > li:hover {
     border-radius: 10px;
 }
 
-.chooseUsCard > img {
-
-}
 
 .chooseUsCard > h4 {
     padding-top: 20px;
@@ -360,4 +357,140 @@ nav > ul  > li:hover {
     grid-area: three;
     border: 1px solid #e944443d;
     background-color: #e9444411;
+}
+
+/* ending the choose us part  */
+
+.dealsPart {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dealsHeader > h2.dealsTitle {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dealsHeader > p.dealsText {
+    padding: 40px 350px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.dealsCardOneWrap {
+    padding: 50px 50px;
+    background-image: url('/Images/cardOne.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.dealsCardOne {
+    width: 40%;
+    background-color: rgba(248, 241, 239, 0.884);
+    padding: 50px 50px;
+    float: right;
+    align-self: center;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardDays {
+
+}
+
+.cardMax {
+
+}
+
+.cardLocation {
+
+}
+
+.cardTitle {
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cardText {
+    font-size: 17px;
+    line-height: 30px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.cardPrice {
+    padding: 20px 0px;
+    font-size: 22px;
+    color: #ff5400;
+    font-weight: bold;
+}
+
+.cardBtn {
+    font-size: 20px;
+    background-color: #ff5400;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dealsCardTwoWrap {
+    margin-top: 30px;
+    padding: 50px 50px;
+    background-image: url('/Images/cardTwo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.dealsCardTwo {
+    width: 40%;
+    background-color: rgba(248, 241, 239, 0.884);
+    padding: 50px 50px;
+    float: left;
+    align-self: center;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.dealsCardThreeWrap {
+    margin-top: 30px;
+    padding: 50px 50px;
+    background-image: url('/Images/cardOne.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.dealsButtonPart {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dealsButton {
+    font-size: 20px;
+    background-color: #ff5400;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
 }
