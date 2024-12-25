@@ -5,10 +5,19 @@
     box-sizing: border-box;
 }
 body {
-    width: 80%;
     min-height: 100%;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullContent {
+    margin: 0 auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 73%;
+    padding: 30px 10px;
 }
 
 nav {
@@ -20,6 +29,7 @@ nav {
     display: flex;
     justify-content: end;
     align-items: center;
+    gap: 10px;
 
 }
 
@@ -52,51 +62,57 @@ nav > ul > li {
 nav > ul  > li:hover {
     color: #ff5400;
     font-weight: bold;
+    transition: all 1s ease-in 0s;
 }
 
 /* navbar part done  */
 
+
 .explorePart {
-    padding: 10% 15%;
+    margin-top: 20px;
+    height: 560px;
     background-image: url('/Images/explore.png');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
 }
 
-.explorePart > h2 {
+.exploreContent {
+    text-align: center;
+}
+
+.exploreContent > h2 {
     font-size: 70px;
     font-weight: bold;
     color: white;
     text-align: center;
 }
 
-.explorePart > p {
+.exploreContent > p {
     font-size: 18px;
     color: white;
     text-align: center;
-    padding: 0px 10%;
+    margin: 30px 20%;
 }
 
 .exploreForm {
+    background-color: rgba(235, 213, 213, 0.39);
+    padding: 20px 20px;
+    margin: 50px 10%;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 40px;
-    background-color: rgba(240, 248, 255, 0.315);
-    padding: 20px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 10px;
     border-radius: 10px;
-    justify-content: center;
 }
 
-.formItem {
-    width: 220px;
-    padding: 20px;
+.exploreForm > input, select, button {
+    padding: 20px 10px;
     border-radius: 10px;
     border: none;
-    outline: none;
-    font-size: 18px;
-    box-sizing: border-box;
+    font-size: 16px;
 }
 
 .exploreForm > button {
@@ -121,9 +137,6 @@ nav > ul  > li:hover {
 .popularTour > div > h2.pTourTitle {
     font-size: 50px;
     font-weight: bold;
-    /* line-height: 0%; */
-    /* margin-top: 60px; */
-    /* padding-bottom: 30px; */
 }
 
 .pTourTextTop {
@@ -386,7 +399,7 @@ nav > ul  > li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    height: 500px;
+    height: 560px;
 }
 
 .dealsCardOne {
@@ -455,7 +468,7 @@ nav > ul  > li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    height: 500px;
+    height: 560px;
 }
 
 .dealsCardTwo {
@@ -476,7 +489,7 @@ nav > ul  > li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    height: 500px;
+    height: 560px;
 }
 
 .dealsButtonPart {
@@ -498,15 +511,12 @@ nav > ul  > li:hover {
 .perfectPlacePart {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 5fr 7fr;
+    grid-template-columns: 6fr 6fr;
     justify-content: space-between;
     gap: 30px;
 
 }
 
-.parfectPlaceDetails {
-    /* padding-bottom: 20px; */
-}
 
 .parfectTitle {
     font-size: 50px;
@@ -533,7 +543,7 @@ nav > ul  > li:hover {
 
 .parfectButton {
     margin-top: 20px;
-}
+} 
 
 .parfectBtn {
     font-size: 20px;
@@ -546,3 +556,141 @@ nav > ul  > li:hover {
     font-weight: bold;
 }
 
+.newsletterPart {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-row: auto;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.newsletterCard {
+    width: 100%;
+    border: 2px solid #ff5400;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.newsletterContain {
+    padding: 0px 50px;
+}
+
+.newsTitle {
+    font-size: 28px;
+}
+
+.newsText {
+    font-size: 17px;
+    padding: 25px 0px;
+    color: rgba(29, 27, 27, 0.664);
+}
+
+.newsLine {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0px;
+    background-color: #f1d3c296;
+}
+
+
+
+.newsletterContain > input {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #f7e5db73;
+}
+
+.newsBtn {
+    width: 100%;
+    font-size: 20px;
+    background-color: #ff5400;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.newsletterImage > img {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+/* newsletter part ended  */
+
+
+.footer {
+    background-color: rgba(245, 227, 229, 0.466);
+    padding: 100px 100px;
+}
+
+
+.footerTop {
+    /* padding: 20px 50px; */
+    text-align: center;
+
+}
+
+.footerTopContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.footerTopText {
+    padding: 20px 25%;
+    font-size: 17px;
+    color: rgba(29, 27, 27, 0.664);
+
+}  
+
+.footerSocialIcons {
+    margin-bottom: 20px;
+}
+
+.footerSocialIcons > a > i {
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.footerSocialIcons > a > i:hover {
+    
+    color: #ff5400;
+    transition: color 1s ease 0s;
+    font-size: 40px;
+    transition: font-size 1s ease 0s;
+}
+
+
+.footerBottom {
+    text-align: center;
+}
+
+.footerLine {
+    width: 60%;
+    height: 2px;
+    /* margin: 20px 0px; */
+    margin: 0 auto;
+    background-color: #f1d3c296;
+}
+
+.footerBottomText {
+    margin-top: 50px;
+    font-size: 17px;
+    color: rgba(20, 20, 20, 0.856);
+}

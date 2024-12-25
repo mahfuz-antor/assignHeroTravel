@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travel</title>
-    <link rel="stylesheet" href="style.css">    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c27587c69c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> 
+
 </head>
 <body>
-    <div class="navbar">
+    <div class="fullContent navbar">
         <nav>
             <div class="navTitle">
                 <img src="/Images/heroLogo.png" alt="logo">
@@ -25,29 +28,34 @@
 
     <!-- ending navbar part -->
 
-    <section class="explorePart">
-        <h2>Explore Your Travel</h2>
+    <section class="fullContent explorePart">
+        <div class="exploreContent">
+            <h2>Explore Your Travel</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo voluptates voluptas beatae maiores, blanditiis praesentium ullam iusto non expedita!</p>
         <div class="exploreForm">
             <input class="formItem" type="text" name="whereGo" id="whereGo" placeholder="Where Go">
-            <select class="formItem" name="exploreDate" id="expDate">
-                <option value="Dec24">16/12/24</option>
-                <option value="Feb25">20/02/25</option>
-                <option value="Mar25">26/03/25</option>
-                <option value="Dec25">16/12/25</option>
-            </select>
-            <select class="formItem" name="exploreType" id="expType">
-                <option value="fClass">First Class</option>
-                <option value="eClass">Economy Class</option>
-                <option value="bClass">Business Class</option>
-            </select>
-            <button class="formItem" type="submit">Find Now</button>
+                <select class="formItem" name="exploreDate" id="expDate">
+                    <option value="Dec24">16/12/24</option>
+                    <option value="Feb25">20/02/25</option>
+                    <option value="Mar25">26/03/25</option>
+                    <option value="Dec25">16/12/25</option>
+                </select>
+                <select class="formItem" name="exploreType" id="expType">
+                    <option value="fClass">First Class</option>
+                    <option value="eClass">Economy Class</option>
+                    <option value="bClass">Business Class</option>
+                </select>
+                <button class="formItem" type="submit">Find Now</button>
         </div>
+        </div>
+            
+       
     </section>
+
 
     <!-- explore Part end  -->
 
-    <section class="popularTour">
+    <section class="fullContent popularTour">
         <div class="pTourLeft">
             <h2 class="pTourTitle">Our Popular Tours</h2>
             <p class="pTourTextTop"> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
@@ -72,7 +80,7 @@
 
     <!-- Ending popular tour part -->
 
-    <section class="destinationPart">
+    <section class="fullContent destinationPart">
         <div class="destinationTop">
             <h2 class="destinationTitle">Choose Your Destination</h2>
             <p class="destinationText">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
@@ -90,7 +98,7 @@
 
     <!-- Ending Destination part -->
 
-    <section class="chooseUsPart">
+    <section class="fullContent chooseUsPart">
         <div class="chooseUsHeader">
             <h2 class="chooseUsTitle">Why Choose Us</h2>
             <p class="chooseUsText">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
@@ -123,7 +131,7 @@
 
     <!-- ending chooseUs part -->
 
-    <section class="dealsPart">
+    <section class="fullContent dealsPart">
         <div class="dealsHeader">
             <h2 class="dealsTitle"> Deals & Discounts </h2>
             <p class="dealsText">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
@@ -186,7 +194,7 @@
 
     <!-- ending deals section  -->
 
-    <section class="perfectPlacePart">
+    <section class="fullContent perfectPlacePart">
         <div class="parfectPlaceDetails">
             <h2 class="parfectTitle">A Simple Perfect Place
                 To Get Lost</h2>
@@ -209,16 +217,16 @@
 
     <!-- ending parfect place part -->
 
-    <section class="newsletterPart">
+    <section class="fullContent newsletterPart">
         <div class="newsletterCard">
             <div class="newsletterContain">
                 <h4 class="newsTitle">
                     Newsletter
                 </h4>
                 <p class="newsText">Get your daily dose of travel news & tips Signup today!</p>
-                <hr>
-                <input type="text" name="name" id="newsName">
-                <input type="email" name="email" id="newsEmail">
+                <div class="newsLine"></div>
+                <input type="text" name="name" id="newsName" placeholder="Enter Your Name">
+                <input type="email" name="email" id="newsEmail" placeholder="Enter Your Email">
                 <button type="submit" class="newsBtn">subcribe</button>
             </div>
         </div>
@@ -226,5 +234,32 @@
             <img src="/Images/newsLetter.png" alt="Newsletter Image">
         </div>
     </section>
+
+
+    <footer class="footer">
+        <section class="footerTop">
+            <div class="footerTopContent">
+                <img src="/Images/heroLogo.png" alt="Logo">
+                <h4 class="footerTitle">Hero Travel</h4>
+            </div>
+            <p class="footerTopText">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo
+                erat maecenas vitae elementum ultricies nullam.
+            </p>
+            <div class="footerSocialIcons">
+                <a href="https://www.twetter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+        
+
+        <section class="footerBottom">
+            <div class="footerLine"></div>
+            <p class="footerBottomText">
+                2024, All Rights Reserved.
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
