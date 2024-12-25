@@ -71,7 +71,7 @@ nav > ul  > li:hover {
 .explorePart {
     margin-top: 20px;
     height: 560px;
-    background-image: url('images/explore.png');
+    background-image: url('Images/explore.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -225,7 +225,7 @@ nav > ul  > li:hover {
     align-items: center;
     grid-area: auto / 1 / span 2 / span 6;
     /* padding: 100px 200px; */
-    background-image: url(images/maldives.png);
+    background-image: url('Images/maldives.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -237,7 +237,7 @@ nav > ul  > li:hover {
     align-items: center;
     grid-area: auto / 7 / span 2 / span 6;
     /* padding: 100px 200px;  */
-    background-image: url('images/indonesia.png');
+    background-image: url('Images/indonesia.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -249,7 +249,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 1 / span 2 / span 3;
-    background-image: url('images/srilanka.png');
+    background-image: url('Images/srilanka.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -261,7 +261,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 4 / span 2 / span 6;
-    background-image: url('images/northAmerica.png');
+    background-image: url('Images/northAmerica.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -272,7 +272,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 10 / span 2 / span 3;
-    background-image: url('images/kashmir.png');
+    background-image: url('Images/kashmir.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -284,7 +284,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 1 / span 2 / span 5;
-    background-image: url('images/bangladesh.png');
+    background-image: url('Images/bangladesh.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -295,7 +295,7 @@ nav > ul  > li:hover {
     justify-content: center;
     align-items: center;
     grid-area: auto / 6 / span 2 / span 7;
-    background-image: url('images/bandarban.png');
+    background-image: url('Images/bandarban.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: fit;
@@ -394,7 +394,7 @@ nav > ul  > li:hover {
 
 .dealsCardOneWrap {
     padding: 50px 50px;
-    background-image: url('images/cardOne.png');
+    background-image: url('Images/cardOne.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -463,7 +463,7 @@ nav > ul  > li:hover {
 .dealsCardTwoWrap {
     margin-top: 30px;
     padding: 50px 50px;
-    background-image: url('images/cardTwo.png');
+    background-image: url('Images/cardTwo.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -484,7 +484,7 @@ nav > ul  > li:hover {
 .dealsCardThreeWrap {
     margin-top: 30px;
     padding: 50px 50px;
-    background-image: url('images/cardOne.png');
+    background-image: url('Images/cardOne.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
