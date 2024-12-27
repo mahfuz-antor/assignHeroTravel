@@ -34,7 +34,7 @@ nav {
 }
 
 .navTitle > h2 {
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -43,8 +43,8 @@ nav {
 }
 
 .navTitle img {
-    width: 80px;
-    height: 60px;
+    width: 5rem;
+    height: 4rem;
 }
 
 nav > ul {
@@ -69,15 +69,15 @@ nav > ul  > li:hover {
 
 
 .explorePart {
-    margin-top: 20px;
-    height: 560px;
+    margin-top: 1.4rem;
+    height: 35rem;
     background-image: url('Images/explore.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 1.4rem;
 }
 
 .exploreContent {
@@ -85,14 +85,14 @@ nav > ul  > li:hover {
 }
 
 .exploreContent > h2 {
-    font-size: 70px;
+    font-size: 4.6rem;
     font-weight: bold;
     color: white;
     text-align: center;
 }
 
 .exploreContent > p {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: white;
     text-align: center;
     margin: 30px 20%;
@@ -100,8 +100,8 @@ nav > ul  > li:hover {
 
 .exploreForm {
     background-color: rgba(235, 213, 213, 0.39);
-    padding: 20px 20px;
-    margin: 50px 10%;
+    padding: 1.2rem 1.2rem;
+    margin: 3rem 10%;
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     gap: 10px;
@@ -131,6 +131,7 @@ nav > ul  > li:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
+    justify-content: space-between;
     gap: 150px;
 }
 
